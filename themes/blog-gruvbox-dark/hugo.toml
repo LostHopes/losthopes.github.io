@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://example.org/' # root url
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 
@@ -16,6 +16,11 @@ weight = 20
 name = 'Tags'
 pageRef = '/tags'
 weight = 30
+
+[[menus.main]]
+name = 'About'
+pageRef = '/about'
+weight = 40
 
 [module]
   [module.hugoVersion]

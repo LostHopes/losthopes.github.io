@@ -1,4 +1,4 @@
-# Theme Name
+# Blog-gruvbox-dark
 
 ## Features
 
