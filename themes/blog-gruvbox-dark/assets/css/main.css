@@ -17,9 +17,12 @@ footer {
   margin-top: 2rem;
 }
 
-a {
+a.link, a.copyright {
   color: #00e;
   text-decoration: none;
+}
+
+a.link{
   font-size: 1.5em;
 }
 

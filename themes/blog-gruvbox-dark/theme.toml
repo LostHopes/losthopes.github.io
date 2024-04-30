@@ -1,4 +1,4 @@
-name = 'Theme name'
+name = 'Blog-gruvbox-dark'
 license = 'MIT'
 licenselink = 'https://github.com/owner/repo/LICENSE'
 description = 'Theme description'
@@ -10,8 +10,8 @@ homepage = 'https://github.com/owner/repo'
 demosite = 'https://owner.github.io/repo'
 
 # Taxonomy terms
-tags = ['blog', 'company']
-features = ['some', 'awesome', 'features']
+tags = ['blog', 'minimalistic', 'copywriting', 'life']
+features = ['simple', 'insteresting', 'fast']
 
 # If the theme has multiple authors
 authors = [
@@ -21,11 +21,11 @@ authors = [
 
 # If the theme has a single author
 [author]
-  name = 'Your name'
-  homepage = 'Your website'
+  name = 'LostHopes'
+  homepage = 'https://losthopes.github.io'
 
 # If porting an existing theme
 [original]
-  author = 'Name of original author'
-  homepage = 'Website of original author'
-  repo = 'https://github.com/owner/repo'
+  author = 'LostHopes'
+  homepage = 'https://losthopes.github.io'
+  repo = 'https://github.com/LostHopes/losthopes.github.io'
