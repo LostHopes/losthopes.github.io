@@ -6,6 +6,16 @@ body {
   /* default max-width 768 pixels */
 }
 
+main{
+  margin: 0 25%;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+main > h1{
+  text-align: center;
+}
+
 header {
   align-items: center;
   border-bottom: 1px solid #222;
