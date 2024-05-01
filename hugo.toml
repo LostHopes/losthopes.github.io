@@ -2,3 +2,6 @@ baseURL = "https://losthopes.github.io"
 languageCode = "en-us"
 title = "LostHope's blog"
 theme = "blog-gruvbox-dark"
+
+[markup.goldmark.parser.attribute]
+block = true

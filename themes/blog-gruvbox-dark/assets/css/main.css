@@ -13,17 +13,30 @@ header {
 }
 
 footer {
+  margin: 0 auto;
   border-top: 1px solid #222;
   margin-top: 2rem;
 }
-
-a.link, a.copyright {
+/* FIXME: p.link > a to something better */
+a.link,
+p.link > a,
+a.copyright {
   color: #00e;
   text-decoration: none;
 }
 
-a.link{
-  font-size: 1.5em;
+a.menu {
+  margin: 20px;
+  font-size: large;
+}
+
+@media (max-width: 350px) {
+  a.menu {
+    font-size: small;
+  }
+  a.menu {
+    display: block;
+  }
 }
 
 ul {
