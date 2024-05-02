@@ -6,13 +6,40 @@ body {
   /* default max-width 768 pixels */
 }
 
-main{
-  margin: 0 25%;
-  font-size: 18px;
-  font-family: 'Courier New', Courier, monospace;
+main {
+  margin: 0 20%;
+  font-family: "Courier New", Courier, monospace;
 }
 
-main > h1{
+@media (max-width: 300px) {
+  main {
+    font-size: 10px;
+    margin: 0 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    font-size: 14px;
+    margin: 0 10%;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    font-size: 16px;
+    margin: 0 10%;
+  }
+}
+
+@media (min-width: 1920px) {
+  main {
+    margin: 0 25%;
+    font-size: 18px;
+  }
+}
+
+main > h1 {
   text-align: center;
 }
 
