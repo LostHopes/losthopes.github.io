@@ -5,5 +5,6 @@ draft = false
 +++
 
 # Welcome to my blog!
+{.title}
 
 Here you can find my research articles, coding experience and will to write something meaningful.

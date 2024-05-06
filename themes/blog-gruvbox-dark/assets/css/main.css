@@ -11,18 +11,41 @@ main {
   font-family: "Courier New", Courier, monospace;
 }
 
+.tags{
+    display: inline-block;
+}
+
+.tags > .link {
+    font-size: medium;
+}
+
 @media (max-width: 300px) {
   main {
     font-size: 10px;
-    margin: 0 5%;
+    margin: 0 1%;
+  }
+  a.menu {
+    display: block;
+  }
+  a.posts, h1.title{
+    font-size: xx-small;
   }
 }
 
 @media (max-width: 768px) {
   main {
     font-size: 14px;
-    margin: 0 10%;
+    margin: 0 1%;
   }
+  a.posts{
+    font-size: x-small;
+  }
+    h1.title{
+        font-size: large;
+    }
+    .tags > .link{
+        font-size: x-small;
+    }
 }
 
 @media (min-width: 768px) {
@@ -30,6 +53,15 @@ main {
     font-size: 16px;
     margin: 0 10%;
   }
+  a.posts {
+    font-size: medium;
+  }
+    a.title{
+        font-size: large;
+    }
+  .tags > .link{
+        font-size: large;
+    }
 }
 
 @media (min-width: 1920px) {
@@ -37,9 +69,18 @@ main {
     margin: 0 25%;
     font-size: 18px;
   }
+  a.posts{
+    font-size: large;
+  }
+  h1.title{
+    font-size: xx-large;
+  }
+    .tags > .link{
+        font-size: larger;
+    }
 }
 
-main > h1 {
+main > h1.title {
   text-align: center;
 }
 
@@ -55,9 +96,7 @@ footer {
   margin-top: 2rem;
 }
 /* FIXME: p.link > a to something better */
-a.link,
-p.link > a,
-a.copyright {
+a {
   color: #00e;
   text-decoration: none;
 }
@@ -67,22 +106,26 @@ a.menu {
   font-size: large;
 }
 
-@media (max-width: 350px) {
-  a.menu {
-    font-size: small;
-  }
-  a.menu {
-    display: block;
-  }
-}
-
-ul {
-  display: flex;
+ul.nav-menu{
+  display: flex; 
   justify-content: center;
   align-content: center;
 }
 
-li {
+ul.nav-menu > li, .tags {
   list-style: none;
   padding-inline-end: 1.5vw;
+}
+
+.tags{
+    display: inline-block;
+    font-size: medium;
+}
+
+blockquote{
+    border-left: 5px black solid;
+}
+
+blockquote > p {
+    padding: 15px;
 }
