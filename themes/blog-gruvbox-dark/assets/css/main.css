@@ -9,6 +9,7 @@ body {
 main {
   margin: 0 20%;
   font-family: "Courier New", Courier, monospace;
+  text-wrap: wrap;
 }
 
 .tags{
@@ -19,15 +20,24 @@ main {
     font-size: medium;
 }
 
+.table, tr > th, tr > td {
+    padding: 5px;
+    border: 2px black solid;
+} 
+
 @media (max-width: 300px) {
   main {
     font-size: 10px;
     margin: 0 1%;
   }
-  a.menu {
-    display: block;
+  li > a.menu {
+    margin: 1px;
+    font-size: smaller;
   }
-  a.posts, h1.title{
+  a.posts,
+  h1.title, 
+  a.menu,
+  .table {
     font-size: xx-small;
   }
 }
@@ -36,6 +46,10 @@ main {
   main {
     font-size: 14px;
     margin: 0 1%;
+  }
+  li > a.menu {
+    margin: 1px;
+    font-size: small;
   }
   a.posts{
     font-size: x-small;
