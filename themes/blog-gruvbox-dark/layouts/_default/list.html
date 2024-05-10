@@ -1,8 +1,12 @@
 {{ define "main" }}
   <h1 class="title">{{ .Title }}</h1>
   {{ .Content }}
+  <ul class="tags">
   {{ range .Pages }}
-    <h2><a class="link posts" href="{{ .RelPermalink }}">{{ .LinkTitle | truncate 50 "..." }}</a></h2>
+    <li>
+      <a class="link posts" href="{{ .RelPermalink }}">{{ .LinkTitle | truncate 50 "..." }}</a>
+    </li>
     <!-- {{ .Summary }} -->
   {{ end }}
+  </ul>
 {{ end }}

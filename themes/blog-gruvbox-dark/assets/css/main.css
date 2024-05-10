@@ -12,18 +12,33 @@ main {
   text-wrap: wrap;
 }
 
-.tags{
-    display: inline-block;
+.tags {
+  display: block;
+}
+
+.tags > li {
+  padding: 5%;
 }
 
 .tags > .link {
-    font-size: medium;
+  font-size: medium;
 }
 
-.table, tr > th, tr > td {
-    padding: 5px;
-    border: 2px black solid;
-} 
+a:hover {
+  text-decoration: underline;
+}
+
+a.posts{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.table,
+tr > th,
+tr > td {
+  padding: 5px;
+  border: 2px black solid;
+}
 
 @media (max-width: 300px) {
   main {
@@ -35,7 +50,7 @@ main {
     font-size: smaller;
   }
   a.posts,
-  h1.title, 
+  h1.title,
   a.menu,
   .table {
     font-size: xx-small;
@@ -51,15 +66,15 @@ main {
     margin: 1px;
     font-size: small;
   }
-  a.posts{
+  a.posts {
     font-size: x-small;
   }
-    h1.title{
-        font-size: large;
-    }
-    .tags > .link{
-        font-size: x-small;
-    }
+  h1.title {
+    font-size: large;
+  }
+  .tags > .link {
+    font-size: x-small;
+  }
 }
 
 @media (min-width: 768px) {
@@ -70,12 +85,12 @@ main {
   a.posts {
     font-size: medium;
   }
-    a.title{
-        font-size: large;
-    }
-  .tags > .link{
-        font-size: large;
-    }
+  a.title {
+    font-size: large;
+  }
+  .tags > .link {
+    font-size: large;
+  }
 }
 
 @media (min-width: 1920px) {
@@ -83,15 +98,15 @@ main {
     margin: 0 25%;
     font-size: 18px;
   }
-  a.posts{
+  a.posts {
     font-size: large;
   }
-  h1.title{
+  h1.title {
     font-size: xx-large;
   }
-    .tags > .link{
-        font-size: larger;
-    }
+  .tags > .link {
+    font-size: larger;
+  }
 }
 
 main > h1.title {
@@ -120,26 +135,27 @@ a.menu {
   font-size: large;
 }
 
-ul.nav-menu{
-  display: flex; 
+ul.nav-menu {
+  display: flex;
   justify-content: center;
   align-content: center;
 }
 
-ul.nav-menu > li, .tags {
+ul.nav-menu > li,
+.tags {
   list-style: none;
   padding-inline-end: 1.5vw;
 }
 
-.tags{
-    display: inline-block;
-    font-size: medium;
+.tags {
+  display: inline-block;
+  font-size: medium;
 }
 
-blockquote{
-    border-left: 5px black solid;
+blockquote {
+  border-left: 5px black solid;
 }
 
 blockquote > p {
-    padding: 15px;
+  padding: 15px;
 }
