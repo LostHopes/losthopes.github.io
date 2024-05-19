@@ -7,8 +7,6 @@ tags = ["Tech", "Linux"]
 description = "My experience with Ubuntu and Arch Linux"
 +++
 
-## Table of Contents
-
 1. [Getting started](#getting-started)
 
 2. [Installation](#installation)

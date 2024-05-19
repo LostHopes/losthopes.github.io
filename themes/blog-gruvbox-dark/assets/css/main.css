@@ -159,3 +159,9 @@ blockquote {
 blockquote > p {
   padding: 15px;
 }
+
+.toc{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
