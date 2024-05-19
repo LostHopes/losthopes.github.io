@@ -135,7 +135,7 @@ but more reliable than Wayland due to it's lifespan.
 
 Window managers are very efficient if you have configured them for yourself.
 Most of them follows the Unix philosophy (do one thing and do it well) --- manage windows.
-It provides a lot of opportunities for customization, minimal amount of system packages and effiecient setup for developers and regular users.
+It provides a lot of opportunities for customization, minimal amount of system packages, efficient setup for developers and regular users.
 The collection of WM's you can find in [futher reading](#futher-reading-and-resources).
 
 I have been using [bspwm](https://github.com/baskerville/bspwm) since early 2023.
