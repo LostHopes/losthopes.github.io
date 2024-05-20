@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+<h1 class="title">{{ .Title }}</h1>
+
+<ul class="posts">
+    {{ range .Pages }}
+    <li>
+        <a class="link" href="{{ .RelPermalink }}">{{ .LinkTitle | truncate 50 "..." }}</a>
+    </li>
+    {{ end }}
+</ul>
+
+{{ end }}
