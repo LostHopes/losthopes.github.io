@@ -8,7 +8,7 @@
 
 <div class="post-info">
   <h1>Post information: </h1>
-  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+  <time datetime="{{ $dateMachine }}">Post written in: {{ $dateHuman }}</time>
   <p>
     {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
   </p>
