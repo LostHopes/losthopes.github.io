@@ -1,7 +1,12 @@
 {{ define "main" }}
-  {{ .Content }}
-  {{ range site.RegularPages }}
-    <!-- <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2> -->
-    <!-- {{ .Summary }} -->
+{{ .Content }}
+Last 3 posts:
+<ul class="posts">
+  {{ range first 3 site.RegularPages }}
+  <li>
+    <a class="link" href="{{ .RelPermalink }}">{{ .LinkTitle | truncate 50 }}</a>:
+    <p>{{ .Summary }}</p>
+  </li>
   {{ end }}
+</ul>
 {{ end }}

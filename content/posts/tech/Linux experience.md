@@ -3,8 +3,11 @@ title = 'Linux and my experience'
 date = 2024-05-08T13:40:41+03:00
 draft = false
 url = "/posts/linux-experience"
-tags = ["Tech", "Linux"]
+tags = ["Linux", "OS"]
+categories = ["Tech"]
 description = "My experience with Ubuntu and Arch Linux"
+summary = """Unless you're playing games with anticheat (e.g PUBG, CS on Faceit, COD: Warzone, etc...) 
+there is nothing to lose if you switch to Linux."""
 +++
 
 1. [Getting started](#getting-started)
