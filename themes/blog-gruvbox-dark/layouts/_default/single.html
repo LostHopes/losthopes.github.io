@@ -9,11 +9,11 @@
 <div class="post-info">
   <h1>Post information: </h1>
   <time datetime="{{ $dateMachine }}">Post written in: {{ $dateHuman }}</time>
+  <p>Estimated readtime: {{ .ReadingTime }} minutes</p>
+  <p>Post contain: {{ .WordCount }} words</p>
   <p>
     {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
   </p>
-  <p>Estimated readtime: {{ .ReadingTime }} minutes</p>
-  <p>Post contain: {{ .WordCount }} words</p>
 </div>
 
 {{ end }}

@@ -4,8 +4,12 @@ Last 3 posts:
 <ul class="posts">
   {{ range first 3 site.RegularPages }}
   <li>
-    <a class="link" href="{{ .RelPermalink }}">{{ .LinkTitle | truncate 50 }}</a>:
-    <p>{{ .Summary }}</p>
+    <details>
+      <summary>
+        <a class="link" href="{{ .RelPermalink }}">{{ .LinkTitle | truncate 50 }}</a>:
+      </summary>
+      <p>{{ .Summary }}</p>
+    </details>
   </li>
   {{ end }}
 </ul>
