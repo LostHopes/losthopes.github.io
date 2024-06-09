@@ -5,3 +5,7 @@ theme = "blog-gruvbox-dark"
 
 [markup.goldmark.parser.attribute]
 block = true
+
+[markup.tableOfContents]
+endLevel = 3
+startLevel = 1

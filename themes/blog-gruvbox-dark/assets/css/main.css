@@ -26,6 +26,10 @@ main {
   text-wrap: wrap;
 }
 
+div li.tags{
+    padding-top: 1em;
+}
+
 .tags > li {
   padding: 1%;
 }
@@ -113,10 +117,4 @@ blockquote {
 
 blockquote > p {
   padding: 15px;
-}
-
-.toc{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }

@@ -10,31 +10,7 @@ summary = """Unless you're playing games with anticheat (e.g PUBG, CS on Faceit,
 there is nothing to lose if you switch to Linux."""
 +++
 
-1. [Getting started](#getting-started)
-
-2. [Installation](#installation)
-    
-    2.1 [Lubuntu](#lubuntu)
-    
-    2.2 [Arch Linux](#arch-linux)
-
-3. [Package Management](#package-management)
-
-4. [Desktop Environments](#desktop-environments)
-
-5. [Xorg or Wayland](#xorg-or-wayland)
-
-6. [Window Managers](#window-managers)
-
-7. [Conclusion](#conclusion)
-
-8. [Futher Reading](#futher-reading-and-resources)
-
-9. [Terminology](#terminology)
-{.toc}
-
-
-## Getting Started
+# Getting Started
 
 Since announcement of Windows 11 I decided to seek out for alternatives for my old laptop.
 I've tried installing Windows 10 on it, but as time goes by the applications soon become very slow and general experience was not so good.
@@ -48,7 +24,7 @@ Lubuntu defaults to LxQt desktop environment and well-suited for old hardware. S
 By that time I've finished my *Linux basics* course in university that made me familiar with the terminal, technical details
 and almost stopped playing video games with anticheat that doesn't support Linux.
 
-## Installation
+# Installation
 
 By the way, if you search for disk burning utilities, here is the list:
 - [Rufus](https://rufus.ie) for Windows only;
@@ -56,13 +32,13 @@ By the way, if you search for disk burning utilities, here is the list:
 - [Balena Etcher](https://etcher.balena.io) for Linux, Windows, MacOS.
 They are great free and open-source software. However, back to my experience.
 
-### Lubuntu
+## Lubuntu
 
 Finally, I had downloaded the ISO and burn the USB stick.
 GUI installer was very intuitive. It took about 15 minutes or so to complete this process.
 I had zero issues with it.
 
-### Arch Linux
+## Arch Linux
 
 Nowadays, it's not big of a deal to install Arch Linux. It has their installation script that works very good.
 However, it's recommended to follow the [ArchWiki](https://wiki.archlinux.org), as some issue may happen in the future and you should deal with them.
@@ -72,7 +48,7 @@ I had some minor problems with Arch install script in the first installation, wh
 The installation of basic packages took up to 10 minutes.
 The first installation following ArchWiki will take you more time, but it's worth it.
 
-## Package management
+# Package management
 
 Debian based distros have a lot of packages, 
 but in certain cases you may need to download a *Snap* version or compile from source.
@@ -108,7 +84,7 @@ My advice is follow these rules:
 In case of Arch Linux, the [AUR helpers](https://wiki.archlinux.org/title/AUR_helpers) like yay, paru or others will manage it for you.
 ArchWiki says they didn't support AUR helpers and packages, but in 1.5 years I hadn't experienced any problems.
 
-## Desktop Environments
+# Desktop Environments
 
 My first desktop environment was LxQt. It's not fancy like modern DE, but focuses on efficiency and simplicity.
 If you have used Windows for a while, it won't take too long to get used to. 
@@ -120,7 +96,7 @@ Default Gnome experience is also very intuitive, but there are a lot of plugins.
 In the past, plugins tends to break if you update on the rolling release distributions.
 So preceed with cautious.
 
-## Xorg or Wayland
+# Xorg or Wayland
 
 I'll recommend you to try both.
 The only issues I had heard of are related to games or broadcasting.
@@ -132,7 +108,7 @@ On the other hand, Xorg (X11 or simply X) is dead project and gets only security
 It's codebase is hard to maintain, have a lot of unnecessary features, 
 but more reliable than Wayland due to it's lifespan.
 
-## Window managers
+# Window managers
 
 Window managers are very efficient if you have configured them for yourself.
 Most of them follows the Unix philosophy (do one thing and do it well) --- manage windows.
@@ -155,11 +131,9 @@ The benefits of using Linux for Desktop:
 5. Intuitive information about errors, system logs
 6. Growing community
 
----
+# Futher reading and resources
 
-## Futher reading and resources:
-
-### Packages
+## Packages
 
 1. [Baeldung - Difference Between Building From Source and Installing From a Package File](https://www.baeldung.com/linux/build-source-vs-install-pkg)
 2. [Lubuntu manual](https://manual.lubuntu.me)
@@ -167,7 +141,7 @@ The benefits of using Linux for Desktop:
 4. [Package managers Wiki](https://en.wikipedia.org/wiki/Package_manager)
 5. [Package formats Wiki](https://en.wikipedia.org/wiki/Package_format)
 
-### Desktop
+## Desktop
 
 1. [Xorg ArchWiki](https://wiki.archlinux.org/title/xorg)
 2. [Wayland ArchWiki](https://wiki.archlinux.org/title/wayland)
@@ -175,14 +149,14 @@ The benefits of using Linux for Desktop:
 4. [Desktop portals Hyprland Wiki](https://wiki.hyprland.org/0.20.0beta/Useful-Utilities/Hyprland-desktop-portal/)
 5. [Window Managers ArchWiki](https://wiki.archlinux.org/title/window_manager)
 
-### Other
+## Other
 
 1. [Unix philosophy Wiki](https://en.wikipedia.org/wiki/Unix_philosophy)
 2. [Free Software Foundation](https://www.fsf.org/about/)
 3. [Reddit community for sharing dotfiles](https://www.reddit.com/r/unixporn/)
 4. [Games status on Linux](https://www.protondb.com/explore)
 
-### YouTube channels about Linux and tech
+## YouTube channels about Linux and tech
 
 1. [Brodie Robertson](https://www.youtube.com/@BrodieRobertson)
 2. [Distrotube](https://www.youtube.com/@DistroTube)
@@ -195,7 +169,7 @@ The benefits of using Linux for Desktop:
 9. [Titus Tech Talk](https://www.youtube.com/@TitusTechTalk)
 
 
-## Terminology:
+# Terminology
 
 **Desktop environment** (DE) - user-friendly interfaces and software for interacting with the system.
 
