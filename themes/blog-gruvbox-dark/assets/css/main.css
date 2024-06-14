@@ -118,3 +118,12 @@ blockquote {
 blockquote > p {
   padding: 15px;
 }
+
+.post-container{
+  display: flex;
+}
+
+#TableOfContents{
+  justify-content: center;
+  white-space: nowrap;
+}
