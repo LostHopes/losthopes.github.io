@@ -117,6 +117,7 @@ blockquote {
 
 blockquote > p {
   padding: 15px;
+  font-style: italic;
 }
 
 .post-container{
@@ -126,4 +127,8 @@ blockquote > p {
 #TableOfContents{
   justify-content: center;
   white-space: nowrap;
+}
+
+.toc-label{
+  font-weight: bold;
 }
