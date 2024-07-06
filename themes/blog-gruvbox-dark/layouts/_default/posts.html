@@ -3,7 +3,7 @@
 <h1 class="title">{{ .Title }}</h1>
 
 <ul class="posts">
-    {{ range .Pages }}
+    {{ range (.Paginate .RegularPagesRecursive).Pages }}
     <li>
         <a class="link" href="{{ .RelPermalink }}">{{ .LinkTitle | truncate 50 "..." }}</a>
         <time datetime="{{ .PublishDate }}"> {{ .PublishDate | time.Format ":date_medium" }} </time>
