@@ -118,6 +118,8 @@ The collection of WM's you can find in [futher reading](#futher-reading-and-reso
 I have been using [bspwm](https://github.com/baskerville/bspwm) since early 2023.
 You can download my [dotfiles](https://github.com/LostHopes/dotfiles) and try it out.
 
+# Difference between kernels
+
 # Conclusion
 
 Despite of WSL and development ecosystem, Windows has more restrictions and [doesn't treat you like a user](https://youtu.be/_fdcrTf0_M4).
