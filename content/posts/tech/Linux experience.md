@@ -120,6 +120,14 @@ You can download my [dotfiles](https://github.com/LostHopes/dotfiles) and try it
 
 # Difference between kernels
 
+There are dozens of custom kernels available to the users.
+Among the popular are:
+- stable: default kernel for linux distributions
+- hardened: some patches for security
+- longterm: used mostly for production machines
+- realtime: deterministic scheduling (means all processes executed just in time)
+- zen: overoptimized kernel with low-latency, mostly used for desktops and gaming
+
 # Conclusion
 
 Despite of WSL and development ecosystem, Windows has more restrictions and [doesn't treat you like a user](https://youtu.be/_fdcrTf0_M4).
@@ -157,6 +165,7 @@ The benefits of using Linux for Desktop:
 2. [Free Software Foundation](https://www.fsf.org/about/)
 3. [Reddit community for sharing dotfiles](https://www.reddit.com/r/unixporn/)
 4. [Games status on Linux](https://www.protondb.com/explore)
+5. [Different kernels and their purposes](https://wiki.archlinux.org/title/Kernel)
 
 ## YouTube channels about Linux and tech
 
