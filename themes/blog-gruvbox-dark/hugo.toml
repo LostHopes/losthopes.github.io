@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/' # root url
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Hugo simple blog theme'
 
 [[menus.main]]
 name = 'Home'
