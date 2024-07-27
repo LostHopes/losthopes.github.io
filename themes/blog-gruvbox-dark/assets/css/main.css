@@ -67,8 +67,9 @@ ul.posts{
 }
 
 ul.posts > li{
-  list-style: upper-roman;
-  padding: 1%;
+  list-style: none;
+  padding-top: 1.5%;
+  padding-bottom: 0.5%;
 }
 
 .table,
