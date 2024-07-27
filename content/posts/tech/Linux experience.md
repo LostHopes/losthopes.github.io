@@ -166,6 +166,7 @@ The benefits of using Linux for Desktop:
 3. [Reddit community for sharing dotfiles](https://www.reddit.com/r/unixporn/)
 4. [Games status on Linux](https://www.protondb.com/explore)
 5. [Different kernels and their purposes](https://wiki.archlinux.org/title/Kernel)
+6. [Linux kernel programming guide](https://sysprog21.github.io/lkmpg/)
 
 ## YouTube channels about Linux and tech
 
