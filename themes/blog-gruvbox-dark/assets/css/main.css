@@ -1,14 +1,13 @@
 body {
-  color: #222;
   font-family: sans-serif;
   line-height: 1.5;
   margin: 1rem;
-  /* background: #32302f; */
-  /* default max-width 768 pixels */
-  /* color: #ebdbb2; */
+  background: #32302f;
+
+  color: #ebdbb2;
 }
 
-/* h1{
+h1{
   color: #fb4934;
 }
 
@@ -17,8 +16,20 @@ h2{
 }
 
 h3{
-  color: #b8bb26;
-} */
+  color: #d79921;
+}
+
+h4{
+  color: #8ec07c;
+}
+
+h5{
+  color: #8399a5;
+}
+
+h6{
+  color: #a5839b;
+}
 
 main {
   margin: 0 20%;
@@ -45,7 +56,7 @@ ul.tags{
 }
 
 a:hover {
-  /* color: #fb4934; */
+  color: #fb4934;
   text-decoration: underline;
 }
 
@@ -64,7 +75,7 @@ ul.posts > li{
 tr > th,
 tr > td {
   padding: 5px;
-  border: 2px black solid;
+  border: 2px #ebdbb2 solid;
 }
 
 main > h1.title {
@@ -73,19 +84,18 @@ main > h1.title {
 
 header {
   align-items: center;
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid #ebdbb2;
   margin-bottom: 1rem;
 }
 
 footer {
   margin: 0 auto;
-  border-top: 1px solid #222;
+  border-top: 1px solid #ebdbb2;;
   margin-top: 2rem;
 }
 
 a {
-  color: #00e;
-  /* color: #83a593; */
+  color: #83a593;
   text-decoration: none;
 }
 
@@ -112,7 +122,7 @@ ul.nav-menu > li,
 }
 
 blockquote {
-  border-left: 5px black solid;
+  border-left: 5px #ebdbb2 solid;
 }
 
 blockquote > p {
