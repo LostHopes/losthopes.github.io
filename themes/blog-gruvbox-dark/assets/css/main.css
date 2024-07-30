@@ -5,6 +5,7 @@ body {
   background: #32302f;
 
   color: #ebdbb2;
+  color-scheme: dark;
 }
 
 h1{
@@ -135,9 +136,17 @@ blockquote > p {
   display: flex;
 }
 
-#TableOfContents{
+#toc-container{
   justify-content: center;
   white-space: nowrap;
+  background-color: #63581b38;
+  border-radius: 5%;
+  padding: 50px;
+  height: 50%;
+}
+
+#toc-container a{
+  color: #ff4800;
 }
 
 .toc-label{

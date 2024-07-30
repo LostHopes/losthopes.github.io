@@ -5,12 +5,11 @@
 {{ $dateHuman := .Date | time.Format "January 2, 2006 3:04 PM" }}
 
 <div class="post-container">
-    
-  <div>
+
+  <div id="toc-container">
     <label for="TableOfContents" class="toc-label">Table of Contents</label>
     {{ .TableOfContents }}
   </div>
-    
 
     <div id="post-content">
       {{ .Content }}
