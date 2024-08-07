@@ -1,4 +1,4 @@
-{{- with  resources.Match "js/**.js" | resources.Concat "main.js" }}
+{{- with resources.Match "js/**.js" | resources.Concat "main.js" }}
   {{- if eq hugo.Environment "development" }}
     {{- with . | js.Build }}
       <script src="{{ .RelPermalink }}"></script>
@@ -6,7 +6,7 @@
   {{- else }}
     {{- $opts := dict "minify" true }}
     {{- with . | js.Build $opts | fingerprint }}
-      <script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous"></script>
+      <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
     {{- end }}
   {{- end }}
 {{- end }}
