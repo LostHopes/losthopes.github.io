@@ -1,6 +1,6 @@
 @media (max-width: 300px) {
   main {
-    font-size: 10px;
+    font-size: 14px;
     margin: 0 1%;
   }
   li > a.menu {
@@ -15,36 +15,42 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   main {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0 1%;
   }
-  li > a.menu {
-    margin: 1px;
-    font-size: small;
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
+
+  a.link {
+    font-size: smaller;
+  }
+
   a.posts {
     font-size: x-small;
   }
 
-  .toc-label{
+  .toc-label {
     font-size: medium;
   }
 
-  h1.title{
+  h1.title {
     font-size: large;
   }
-  .tags > .link {
-    font-size: x-small;
+  .tags .link {
+    font-size: small;
   }
   .post-container {
     flex-direction: column;
     gap: 5%;
   }
   #TableOfContents {
-    font-size: 12px;
-    text-wrap: wrap;
+    font-size: 16px;
+    text-wrap: pretty;
   }
 }
 
@@ -63,7 +69,13 @@
   }
   .tags > .link {
     font-size: large;
+    gap: 15%;
   }
+
+  ul.nav-menu {
+    gap: 8%;
+  }
+
   .post-container {
     flex-direction: column;
     gap: 3%;
@@ -92,5 +104,8 @@
   .post-container {
     flex-direction: row-reverse;
     gap: 1%;
+  }
+  ul.nav-menu {
+    gap: 10%;
   }
 }
