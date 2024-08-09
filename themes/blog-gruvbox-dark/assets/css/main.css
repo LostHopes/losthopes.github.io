@@ -156,7 +156,6 @@ blockquote > p {
 
 .burger {
   display: none;
-  cursor: pointer;
 }
 
 .line1,
@@ -181,4 +180,12 @@ blockquote > p {
 
 .burger-state .line3 {
   transform: translate(0, -11px) rotate(45deg);
+}
+
+.hidden-menu {
+  display: none;
+}
+
+.menu-list{
+  list-style: none;
 }
