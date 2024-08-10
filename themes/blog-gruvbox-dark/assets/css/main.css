@@ -85,32 +85,9 @@ main > h1.title {
   text-align: center;
 }
 
-header {
-  align-items: center;
-  border-bottom: 1px solid #ebdbb2;
-  margin-bottom: 1rem;
-}
-
-footer {
-  margin: 0 auto;
-  border-top: 1px solid #ebdbb2;
-  margin-top: 2rem;
-}
-
 a {
   color: #83a593;
   text-decoration: none;
-}
-
-a.menu {
-  margin: 20px;
-  font-size: large;
-}
-
-ul.nav-menu {
-  display: flex;
-  justify-content: center;
-  align-content: center;
 }
 
 ul.nav-menu > li,
@@ -152,40 +129,4 @@ blockquote > p {
 
 .toc-label {
   font-weight: bold;
-}
-
-.burger {
-  display: none;
-}
-
-.line1,
-.line2,
-.line3 {
-  cursor: pointer;
-  margin: 8px 0;
-  width: 40px;
-  height: 5px;
-  position: relative;
-  background-color: antiquewhite;
-  transition: 0.4s;
-}
-
-.burget-state .line1 {
-  transform: translate(0, 11px) rotate(-45deg);
-}
-
-.burger-state .line2 {
-  opacity: 0;
-}
-
-.burger-state .line3 {
-  transform: translate(0, -11px) rotate(45deg);
-}
-
-.hidden-menu {
-  display: none;
-}
-
-.menu-list{
-  list-style: none;
 }
