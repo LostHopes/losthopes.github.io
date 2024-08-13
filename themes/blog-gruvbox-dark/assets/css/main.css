@@ -60,6 +60,8 @@ ul.tags {
 a:hover {
   color: #fb4934;
   text-decoration: underline;
+  transition: ease-in-out 0.5s;
+  text-underline-offset: 8px;
 }
 
 ul.posts {
@@ -129,4 +131,21 @@ blockquote > p {
 
 .toc-label {
   font-weight: bold;
+}
+
+.scroll-btn {
+  display: flex;
+  margin-left:95%;
+  background-color: #8399a5;
+  height: 60px;
+  width: 60px;
+  border-radius: 60%;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-arrow {
+  border-style: solid;
+  border-width: 0 14.5px 20px 14.5px;
+  border-color: transparent transparent white transparent;
 }
