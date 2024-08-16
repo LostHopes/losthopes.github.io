@@ -63,6 +63,14 @@
   .menu-list a {
     animation: burger-links 2s;
   }
+  .scroll-btn {
+    margin-left: 90%;
+    height: 40px;
+    width: 40px;
+  }
+  .scroll-arrow {
+    border-width: 0 10px 15px 10px;
+  }
 }
 
 @media (min-width: 768px) {
