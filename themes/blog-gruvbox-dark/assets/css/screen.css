@@ -60,14 +60,8 @@
     display: inline;
     margin: 1px;
   }
-  .burger-state .line1 {
-    transform: translate(0, 11px) rotate(-45deg);
-  }
-  .burger-state .line2 {
-    opacity: 0;
-  }
-  .burger-state .line3 {
-    transform: translate(0, -11px) rotate(45deg);
+  .menu-list a {
+    animation: burger-links 2s;
   }
 }
 
@@ -124,5 +118,14 @@
   }
   ul.nav-menu {
     gap: 10%;
+  }
+}
+
+@keyframes burger-links{
+  from{
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
   }
 }

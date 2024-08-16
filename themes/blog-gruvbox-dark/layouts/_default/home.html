@@ -6,7 +6,9 @@ Last 3 posts:
   <li>
     <details>
       <summary>
-        <a class="link" href="{{ .RelPermalink }}">{{ .LinkTitle | truncate 50 }}</a>:
+        <a class="link" href="{{ .RelPermalink }}">{{ .LinkTitle | truncate 50 }}</a>
+         - {{ $date := .Date | time.Format ":date_medium" }}
+        <time datetime="{{ $date }}">{{ $date }}</time>
       </summary>
       <p>{{ .Summary }}</p>
     </details>
