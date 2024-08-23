@@ -53,16 +53,18 @@
     text-wrap: pretty;
   }
 
-  ul.nav-menu{
+  ul.nav-menu {
     display: none;
   }
-  .burger{
-    display: inline;
-    margin: 1px;
+  .burger {
+    display: block;
+    margin-bottom: 1.5em;
   }
+
   .menu-list a {
-    animation: burger-links 2s;
+    animation: burger-links 1.5s;
   }
+
   .scroll-btn {
     margin-left: 90%;
     height: 40px;
@@ -129,8 +131,9 @@
   }
 }
 
-@keyframes burger-links{
-  from{
+@keyframes burger-links {
+  from {
+    margin-left: -30%;
     opacity: 0%;
   }
   to {
