@@ -149,3 +149,12 @@ blockquote > p {
   border-width: 0 14.5px 20px 14.5px;
   border-color: transparent transparent white transparent;
 }
+
+summary{
+  width: fit-content;
+  cursor: pointer;
+}
+
+summary::marker{
+  font-size: 0.6cm;
+}

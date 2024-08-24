@@ -42,11 +42,11 @@ ul.nav-menu {
 }
 
 .burger-state .line1 {
-  transform: translate(0, 12px) rotate(-40deg);
+  transform: translate(0, 12.5px) rotate(-40deg);
 }
 .burger-state .line2 {
   opacity: 0;
 }
 .burger-state .line3 {
-  transform: translate(0, -12px) rotate(40deg);
+  transform: translate(0, -12.5px) rotate(40deg);
 }

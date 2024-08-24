@@ -6,8 +6,8 @@
     {{ range (.Paginate .RegularPagesRecursive).Pages }}
     <li>
         <a class="link" href="{{ .RelPermalink }}">{{ .LinkTitle | truncate 50 "..." }}</a>
+        - <time datetime="{{ .PublishDate }}"> {{ .PublishDate | time.Format ":date_medium" }} </time>
     </li>
-    <time datetime="{{ .PublishDate }}"> {{ .PublishDate | time.Format ":date_medium" }} </time>
     {{ end }}
 </ul>
 

@@ -26,9 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
     burger.addEventListener("click", toggleBurgerMenu);
     window.addEventListener("resize", handleWindowResize);
 
-    if(!scroll) {
-        return;
-    }
+    if(!scroll) { return; }
 
     scroll.addEventListener("click", scrollToTop);
 
