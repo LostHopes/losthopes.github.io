@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     var burger = document.querySelector(".burger");
     var menu = document.querySelector(".nav-menu");
-    var scroll = document.querySelector(".scroll-btn");
+    
 
     function toggleBurgerMenu() {
         burger.classList.toggle("burger-state");
@@ -16,18 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    function scrollToTop() {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        })
-    }
-
     burger.addEventListener("click", toggleBurgerMenu);
     window.addEventListener("resize", handleWindowResize);
-
-    if(!scroll) { return; }
-
-    scroll.addEventListener("click", scrollToTop);
 
 });
