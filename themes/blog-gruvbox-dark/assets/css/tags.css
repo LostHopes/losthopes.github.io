@@ -1,0 +1,22 @@
+div li.tags {
+  padding-top: 1em;
+}
+
+.tags > li {
+  padding: 1%;
+}
+
+.tags > .link {
+  font-size: medium;
+}
+
+ul.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tags {
+  display: inline-block;
+  font-size: medium;
+}
