@@ -21,7 +21,7 @@ ul.posts > li {
   background-color: #63581b38;
   border-radius: 5%;
   padding: 50px;
-  height: 50%;
+  height: fit-content;
 }
 
 #toc-container a {
