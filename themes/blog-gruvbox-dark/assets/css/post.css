@@ -48,3 +48,9 @@ ul.posts > li {
   border-width: 0 14.5px 20px 14.5px;
   border-color: transparent transparent white transparent;
 }
+
+.post-date{
+  display: flex;
+  justify-content: flex-end;
+  padding: 3vh;
+}

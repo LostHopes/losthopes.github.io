@@ -10,14 +10,11 @@
     <label for="TableOfContents" class="toc-label">Table of Contents</label>
     {{ .TableOfContents }}
   </div>
-
     <div id="post-content">
+      <time class="post-date" datetime="{{ .Lastmod }}">
+        {{ .Lastmod | time.Format "January 2, 2006 3:04 PM"}}
+      </time>
       {{ .Content }}
-    <h1>Post information: </h1>
-    <time datetime="{{ $dateMachine }}">Post written in: {{ $dateHuman }}</time>
-    <p>Estimated readtime: {{ .ReadingTime }} minutes</p>
-    <p>Post contain: {{ .WordCount }} words</p>
-    <time datetime="{{ .Lastmod }}">Last modified: {{ .Lastmod | time.Format "January 2, 2006 3:04 PM"}}</time>
     <p>
       {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
     </p>
