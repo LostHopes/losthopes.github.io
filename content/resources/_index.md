@@ -1,5 +1,5 @@
 +++
-title = 'Resources for learning'
+title = 'Resources'
 draft = false
 +++
 
