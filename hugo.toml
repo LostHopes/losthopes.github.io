@@ -9,3 +9,4 @@ block = true
 [markup.tableOfContents]
 endLevel = 3
 startLevel = 1
+ordered = false
