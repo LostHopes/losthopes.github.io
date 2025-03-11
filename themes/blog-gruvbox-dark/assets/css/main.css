@@ -47,13 +47,13 @@ a:hover {
 }
 
 .table,
-tr > th,
-tr > td {
+tr>th,
+tr>td {
   padding: 5px;
   border: 2px #ebdbb2 solid;
 }
 
-main > h1.title {
+main>h1.title {
   text-align: center;
 }
 
@@ -62,26 +62,25 @@ a {
   text-decoration: none;
 }
 
-ul.nav-menu > li,
+ul.nav-menu>li,
 .tags {
   list-style: none;
-  padding-inline-end: 1.5vw;
 }
 
 blockquote {
   border-left: 5px #ebdbb2 solid;
 }
 
-blockquote > p {
+blockquote>p {
   padding: 15px;
   font-style: italic;
 }
 
-summary{
+summary {
   width: fit-content;
   cursor: pointer;
 }
 
-summary::marker{
+summary::marker {
   font-size: 0.6cm;
 }
