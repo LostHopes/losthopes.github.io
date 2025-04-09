@@ -10,3 +10,7 @@ block = true
 endLevel = 3
 startLevel = 1
 ordered = false
+
+[pagination]
+disableAliases = false
+pagerSize = 9

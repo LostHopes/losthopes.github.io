@@ -1,0 +1,23 @@
+{{ $pages := where site.RegularPages "Type" "posts" }}
+{{ $paginator := .Paginate $pages }}
+
+<ul class="posts">
+    {{ range $paginator.Pages }}
+    <li>
+        <a class="link" href="{{ .RelPermalink }}">{{ .LinkTitle | truncate 50 "..." }}</a>
+        - <time datetime="{{ .PublishDate }}"> {{ .PublishDate | time.Format ":date_medium" }} </time>
+    </li>
+    {{ end }}
+</ul>
+
+{{ with $paginator }}
+    {{ if gt .TotalNumberOfElements .PagerSize }}
+    <ul class="pages-block">
+        {{ range .Pagers }}
+            <li>
+                <a href="{{ .URL }}">{{ .PageNumber }}</a>
+            </li>
+        {{ end }}
+    </ul>
+    {{ end }}
+{{ end }}

@@ -6,7 +6,8 @@ div li.tags {
   padding: 1%;
 }
 
-.tags > .link {
+.tags > .link, 
+.tags {
   font-size: medium;
 }
 
@@ -14,10 +15,10 @@ ul.tags {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  font-size: medium;
 }
 
 .tags {
   display: inline-block;
-  font-size: medium;
   padding-right: 20px;
 }
