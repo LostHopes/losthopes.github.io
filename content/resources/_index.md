@@ -20,6 +20,7 @@ draft = false
 | [ECS150](https://lupteach.gitlab.io/courses/ucd-ecs150/online/) | Essential concepts of Operating Systems and System Programming |
 | [6.824](https://pdos.csail.mit.edu/6.824/)                      | Distributed Systems course by MIT                              |
 | [6.S184](https://diffusion.csail.mit.edu)                       | Generative AI with Stochastic Differential Equations           |
+| [11-785](https://deeplearning.cs.cmu.edu/S25/index.html)        | Introduction to Deep Learning by Carnegie Mellon University    |
 {.table}
 
 # Books
