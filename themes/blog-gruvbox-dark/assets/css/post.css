@@ -41,6 +41,12 @@ ul.posts>li {
   border-radius: 60%;
   align-items: center;
   justify-content: center;
+  position: sticky;
+  bottom: 30px;
+}
+
+.scroll-btn-hide{
+  display: none;
 }
 
 .scroll-arrow {
