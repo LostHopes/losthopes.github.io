@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     var scroll = document.querySelector(".scroll-btn");
 
-
     function scrollToTop() {
         window.scrollTo({
             top: 0,
