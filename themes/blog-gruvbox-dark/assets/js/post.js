@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function toggleScrollButton() {
         let scrollY = window.scrollY;
-        if (scrollY > 800) {
+        if (scrollY < 800) {
             scroll.classList.add("scroll-btn-hide");
             return;
         }
