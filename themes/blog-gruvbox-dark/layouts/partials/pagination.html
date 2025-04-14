@@ -15,7 +15,12 @@
     <ul class="pages-block">
         {{ range .Pagers }}
             <li>
-                <a href="{{ .URL }}">{{ .PageNumber }}</a>
+                <a 
+                    {{ if eq .PageNumber $.Paginator.PageNumber }}
+                        id="active-page"
+                    {{ end }}
+                    href="{{ .URL }}">{{ .PageNumber }}
+                </a>
             </li>
         {{ end }}
     </ul>
